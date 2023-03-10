@@ -1,0 +1,19 @@
+.tabItemContainer {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #7b8794;
+  padding: 10px;
+  font-weight: 500;
+  border-bottom: 1px solid #7b8794;
+  cursor: pointer;
+  outline: none;
+  background-color: transparent;
+}
+button {
+  border-radius: 0px;
+  border-width: 0px;
+}
+.activeTabButton {
+  color: #2563eb;
+  border-bottom: 2px solid #2563eb;
+}

@@ -1,0 +1,79 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.divContainer {
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+  min-height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  font-family: 'Bree Serif';
+  font-weight: bold;
+  color: #1e293b;
+  font-size: 42px;
+  padding-bottom: 22px;
+}
+.inputContainer {
+  border-radius: 3px;
+  border-width: 1px;
+  border-color: #7b8794;
+  border-style: solid;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 235px;
+  margin-bottom: 17px;
+}
+.inputEl {
+  background-color: transparent;
+  font-family: 'Roboto';
+  color: #000000;
+  outline: none;
+  font-weight: bold;
+  border-radius: 0px;
+  border-width: 0px;
+  width: 235px;
+  font-size: 15px;
+}
+.searchImage {
+  width: 25px;
+}
+.tabContainer {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.appListContainer {
+  padding-left: 0px;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .inputContainer {
+    width: 410px;
+  }
+  .inputEl {
+    width: 410px;
+  }
+  .divContainer {
+    padding: 90px;
+  }
+}
